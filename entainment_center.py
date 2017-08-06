@@ -49,5 +49,5 @@ the_devel_wears_prada = media.Movie(
 
 movies = [one_day, titanic, love_actually, forest_gump,
           the_great_gatsby, the_devel_wears_prada]
-# fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
 print(media.Movie.__doc__)
