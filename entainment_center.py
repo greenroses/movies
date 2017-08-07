@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+# create six movie objects with media.Movie()
+# pass in the movie name, storyline, poster image and youtube trailer
 one_day = media.Movie(
     "One Day",
     ("After spending the night together on the night of their college " +
@@ -47,6 +49,9 @@ the_devel_wears_prada = media.Movie(
     "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Devil_Wears_Prada_main_onesheet.jpg",  # noqa
     "https://www.youtube.com/watch?v=XTDSwAxlNhc")
 
+# create a list of the movie instances
+# open_movies_page function in fresh_tomatoes.py takes in a list of movies
+# as output, it creates and opens a website that shows these movies
 movies = [one_day, titanic, love_actually, forest_gump,
           the_great_gatsby, the_devel_wears_prada]
 fresh_tomatoes.open_movies_page(movies)
