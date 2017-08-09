@@ -5,8 +5,18 @@ The movie trailer website is part of the **Udacity Full Stack Web Developer Nano
 The website lists six of my favoriate movies. Click on the movie image, you will be able to see the movie trailer. Hope you enjoy it!
 
 ##How to open the movie trailer website
-1. Download the code repository.
-2. Open fresh_tomatoes.html in your browser. 
+Option A: generate the webpage with **IDLE**
+1. Download the code repository
+2. Open IDLE 
+3. Click File - Open, to open the entertainment_center.py file
+4. Click Run - Run Module. The movie webpage should be generated in your browser.
+
+Option B: build the webpage in the **terminal**
+1. Download the code repository
+2. Open terminal
+3. Change directory to the folder where the project code is, e.g. `cd Desktop/movies`
+4. Type in `python entertainment_center.py` and run. The movie webpage should appear in your browser.
+
 
 ##List of files
 - entainment_center.py
